@@ -28,7 +28,7 @@ function setMain() {
                 rowContainer.appendChild(cardWrapper);
 
                 const card = document.createElement("div");
-                card.classList.add("card", "px-0",);
+                card.classList.add("card", "px-0", "h-100");
                 //card.style = "width: 18rem;";
                 card.setAttribute("data-bs-toggle", "modal");
                 card.setAttribute("data-bs-target", "#post-modal");
